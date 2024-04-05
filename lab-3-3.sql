@@ -22,4 +22,4 @@ SELECT
 FROM teams
 WHERE year >= 1960
 GROUP BY year
-ORDER BY wins DESC
+ORDER BY MAX(wins) DESC
